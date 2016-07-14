@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chan.com.bcb.MainActivity">
+    
+    <chan.com.bcb.BottomCenterButton
+        android:id="@+id/bcb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:centerIconSrc="@drawable/ic_tab_button"
+        app:firstSonIconSrc="@drawable/ic_sonbutton1"
+        app:firstSonIconText="第一个"
+        app:secondSonIconSrc="@drawable/ic_sonbutton2"
+        app:secondSonIconText="第二个"
+        app:thirdSonIconSrc="@drawable/ic_sonbutton3"
+        app:thirdSonIconText="第三个"/>
+</RelativeLayout>
